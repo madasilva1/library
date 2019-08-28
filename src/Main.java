@@ -7,8 +7,9 @@ public class Main {
 
         searchCostumer mysearchCostumer;
          mysearchCostumer = new searchCostumer();
-         
-         String you = mysearchCostumer.searchCostumer();
+
+         String you = mysearchCostumer.getName();
+
          System.out.println("Costumer name is:" + you + " ");
     }
 }
