@@ -5,10 +5,11 @@ public class searchCostumer {
    private String name ;
    private String adress;
 
-    public void SetName(String nome){
-        name = nome;
+   public void SetName(String nome){
 
-    }
+       name = nome;
+   }
+
     public String getName(){
         return  name;
     }
