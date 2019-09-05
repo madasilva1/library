@@ -2,14 +2,13 @@
 import java.util.Scanner;
 public class searchCostumer {
 
-   private String name ;
-   private String adress;
+    private String name ;
+    private String adress;
 
-   public void SetName(String nome){
+    public void SetName(String nome){
+        name = nome;
 
-       name = nome;
-   }
-
+    }
     public String getName(){
         return  name;
     }
@@ -25,8 +24,10 @@ public class searchCostumer {
 
         String name = scanner.nextLine();
 
-       return  name;
+        return  name;
+    }
+
     }
 
 
-}
+
