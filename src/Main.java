@@ -3,13 +3,12 @@ public class Main {
         Book book = new Book();
         book.isBookBorowed();
         boolean resulted = book.isBookBorowed();
-        System.out.println(resulted);
+
 
         searchCostumer mysearchCostumer;
-         mysearchCostumer = new searchCostumer();
+        mysearchCostumer = new searchCostumer();
 
-         String you = mysearchCostumer.getName();
-
-         System.out.println("Costumer name is:" + you + " ");
+        String you = mysearchCostumer.searchCostumer();
+        System.out.println("Costumer name is:" + you + " ");
     }
 }
